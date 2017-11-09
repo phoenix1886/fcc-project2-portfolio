@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7-2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/main.css" type="text/css">
+</head>
+<body data-spy="scroll" data-target="#nav-header" data-offset="100">
+
+
+    <!--header-->
+    <div class="row header mx-0 align-items-center sticky-top">
+        <div class="col-sm-12 col-md-4 col-lg-3">
+            <span  class="badge badge-warning logo">MaslovWebDev</span>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+                <ul id="nav-header" class="nav nav-pills d-flex justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="col-sm-12 col-md-2 col-lg-3 d-none d-md-block d-lg-block px-0">
+            <ul class="d-flex justify-content-end my-auto mx-0 px-0">
+                <a href="https://github.com/phoenix1886" class="fa fa-github fa-2x mx-auto" aria-hidden="true"></a>
+                <a href="https://twitter.com/maslovks" class="fa fa-twitter fa-2x ,mx-auto" aria-hidden="true"></a>
+                <a href="https://vk.com/maslov.qpano" class="fa fa-vk fa-2x mx-auto" aria-hidden="true"></a>
+            </ul>
+        </div>
+    </div>
+    <!--/header-->
+
+    <div class="container">
+        <div class="row about">
+            <div class="col-sm-12 col-md-8 pl-5 order-2">
+                <a class="anchors" href="#" id="about"></a>
+                <p class="display-4 mt-5 pt-3">Full-Stack Developer</p>
+                <p>Hello! My name is Kirill, and I am a full-stack web-developer from Russia. My main
+                instuments for work are Python and JavaScript. I use Django for back-end, and React for
+                front. </p>
+                <hr />
+                <p class="py-5 mb-5">This web-page is created as a project for FreeCodeCamp, but it can be
+                    usefull for my potential employers to see my projects here.</p>
+
+            </div>
+            <div class="col-sm-12 col-md-4 order-1">
+                <img id="avatar" class ="d-block mx-auto" src="https://avatars2.githubusercontent.com/u/29109083?v=4">
+            </div>
+        </div>
+
+        <a class="anchors" href="#" id="portfolio"></a>
+        <h1 class="display-4 text-center mb-2">Portfolio</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mx-auto">
+                    <img class="card-img-top portfolio-img" src="https://fthmb.tqn.com/wj5sX7lmUNdg4mjExhcPJW5iR3c=/768x0/filters:no_upscale()/html-code-183381310-59266f0a5f9b585950c843d8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">FCC project 1</h2>
+                        <p class="card-text">Tribute page, dedicated to Ivan Shishkin, created as a project for freecodecamp.</p>
+                        <a href="https://github.com/phoenix1886/fcc-project1-tribute-page" class="btn btn-primary d-block mx-auto">See on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mx-auto">
+                    <img class="card-img-top portfolio-img" src="https://geekswipe.net/wp-content/uploads/2014/10/Geekswipe-Python-Twitter-bot-Source-Photo-by-Karthikeyan-KC.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Devman project 7</h2>
+                        <p class="card-text">Project, created for devman.</p>
+                        <a href="https://github.com/phoenix1886/7_mistery_fix" class="btn btn-primary d-block mx-auto">See on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mx-auto">
+                    <img class="card-img-top portfolio-img" src="https://fthmb.tqn.com/wj5sX7lmUNdg4mjExhcPJW5iR3c=/768x0/filters:no_upscale()/html-code-183381310-59266f0a5f9b585950c843d8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">FCC project 2</h2>
+                        <p class="card-text">Portfolio site, created for freecodecamp. Actually this site.</p>
+                        <a href="index.html" class="btn btn-primary d-block mx-auto">See on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="anchors" href="#" id="contact"></a>
+        <h1 class="display-4 text-center my-5">Contact me</h1>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name-input" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted text-center">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message text..."></textarea>
+            </div>
+            <div class="mx-auto">
+            <button type="submit" class="btn btn-primary mx-auto d-block">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <!--footer-->
+    <div class="row header mx-0 align-items-center">
+        <div class="col-sm-12 col-md-4 col-lg-3 d-none d-md-block d-lg-block">
+            <small class="font-italic text-secondary">Created for educational purposes</small>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-6 ">
+            <ul class="d-flex justify-content-end my-auto mx-0 px-0">
+                <a href="https://github.com/phoenix1886" class="fa fa-github fa-2x mx-auto" aria-hidden="true"></a>
+                <a href="https://twitter.com/maslovks" class="fa fa-twitter fa-2x ,mx-auto" aria-hidden="true"></a>
+                <a href="https://vk.com/maslov.qpano" class="fa fa-vk fa-2x mx-auto" aria-hidden="true"></a>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3 d-none d-md-block d-lg-block px-0">
+            <span class="badge badge-warning logo">MaslovWebDev</span>
+        </div>
+    </div>
+    <!--/footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

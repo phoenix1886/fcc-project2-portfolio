@@ -1,0 +1,82 @@
+body {
+    background: url("https://media.giphy.com/media/X759uAfgOJnWw/giphy.gif") repeat;
+    background-size: 150%;
+}
+
+.nav-item {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.nav-item a{
+    color: cornflowerblue;
+}
+
+.header {
+    background-color: aliceblue;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px #bbb solid;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: white;
+    margin: 0.5em auto;
+    display: block;
+    width: 8em;
+    padding: 0.38em 0.5em;
+}
+
+.container {
+    width: 80%;
+    background-color: white;
+}
+
+p {
+    font-size: large;
+    font-weight: 400;
+}
+
+.about {
+    /*background-image: url("https://media.istockphoto.com/photos/gray-background-picture-id507865214?k=6&m=507865214&s=612x612&w=0&h=YbAZpmAki7WdAz0Kqd9J_yUZVtXIriWJHr60M4pSpTI=");*/
+
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 90%;
+    max-width: 15em;
+    margin-top: 100px;
+}
+
+.portfolio-img {
+    height: 15em;
+}
+
+form {
+    max-width : 450px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 2em 2em;
+
+}
+
+.anchors{
+    display: block;
+    position: relative;
+    top: -100px;
+}
+
+
+a.fa {
+    color: black;
+}
+
+a.fa:hover {
+    text-decoration: none;
+}
